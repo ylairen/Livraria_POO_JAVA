@@ -1,18 +1,5 @@
 package model;
 
-/*b) Antes disso, note que a Editora possui informações próprias, como as listadas
-abaixo. Portanto, deve ser representada como uma classe separada (objeto).
-Crie a classe Editora definindo seus atributos e comportamentos específicos:
-Atributos
-• Nome fantasia;
-• Razão social;
-• CNPJ.
-Métodos
-• mostrarDetalhes();
-• Getters e Setters necessários.
-Além disso, delegue os construtores (um vazio e outro que passa todos
-os atributos).*/
-
 public class Editora {
 
 	private String NomeFantasia;

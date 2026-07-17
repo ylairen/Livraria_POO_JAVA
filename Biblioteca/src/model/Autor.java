@@ -11,14 +11,6 @@ public class Autor {
 	public Autor() {
 		System.out.println("Autor criado");
 	}
-
-	/*
-	 * Por fim, adicione na classe Autor um novo construtor que receba todos os
-	 * atributos para facilitar a criação de objetos de forma mais clara e
-	 * eficiente. Fique à vontade para escolher a forma como quer inicializar seus
-	 * objetos. Lembrando que, a inicialização de Livro sempre vai exigir um Autor
-	 * associado.
-	 */
 	
 	public Autor(String nome, String email, String cPF) {
 		super();
@@ -47,8 +39,6 @@ public class Autor {
 	public String getCPF() {
 		return CPF;
 	}
-
-	//NÃO É IDEAL USAR O SETCPF PQ DEPOIS QUE ADICIONADO NÃO PODE SER MODIFICADO
 
 	public void setCPF(String cPF) {
 		CPF = cPF;
